@@ -11,7 +11,7 @@ class RegionVitivinicola(models.Model):
 
 class Provincia(models.Model):
     nombre = models.CharField(max_length=255)
-    regiones_vitivinicolas = models.ManyToManyField(RegionVitivinicola, related_name='provincias')
+    region_vitivinicola = models.ManyToManyField(RegionVitivinicola, related_name='provincias')
 
     def __str__(self):
         return self.nombre
@@ -22,6 +22,7 @@ class Pais(models.Model):
 
     def __str__(self):
         return self.nombre
+
 class Maridaje(models.Model):
     descripcion = models.CharField(max_length=255)
     nombre = models.CharField(max_length=255)

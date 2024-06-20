@@ -10,7 +10,7 @@ class RegionVitivinicolaAdmin(admin.ModelAdmin):
 
 @admin.register(Provincia)
 class ProvinciaAdmin(admin.ModelAdmin):
-    list_display = ('id', 'nombre', 'region_vitivinicola')
+    list_display = ('id', 'nombre')
 
 @admin.register(Pais)
 class PaisAdmin(admin.ModelAdmin):
