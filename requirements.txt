@@ -1,0 +1,4 @@
+#Framework Django
+Django
+#Librería para la conexión con PostgreSQL
+psycopg2-binary
