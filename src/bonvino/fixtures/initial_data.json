@@ -1,0 +1,544 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "password": "pbkdf2_sha256$150000$",
+            "first_name": "Usuario",
+            "last_name": "Uno",
+            "is_staff": false,
+            "is_active": true,
+            "is_superuser": false,
+            "last_login": null,
+            "date_joined": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "password": "pbkdf2_sha256$150000$",
+            "first_name": "Usuario",
+            "last_name": "Dos",
+            "is_staff": false,
+            "is_active": true,
+            "is_superuser": false,
+            "last_login": null,
+            "date_joined": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "password": "pbkdf2_sha256$150000$",
+            "first_name": "Usuario",
+            "last_name": "Tres",
+            "is_staff": false,
+            "is_active": true,
+            "is_superuser": false,
+            "last_login": null,
+            "date_joined": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "password": "pbkdf2_sha256$150000$",
+            "first_name": "Usuario",
+            "last_name": "Cuatro",
+            "is_staff": false,
+            "is_active": true,
+            "is_superuser": false,
+            "last_login": null,
+            "date_joined": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "password": "pbkdf2_sha256$150000$",
+            "first_name": "Usuario",
+            "last_name": "Cinco",
+            "is_staff": false,
+            "is_active": true,
+            "is_superuser": false,
+            "last_login": null,
+            "date_joined": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "password": "pbkdf2_sha256$150000$",
+            "first_name": "Usuario",
+            "last_name": "Seis",
+            "is_staff": false,
+            "is_active": true,
+            "is_superuser": false,
+            "last_login": null,
+            "date_joined": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "password": "pbkdf2_sha256$150000$",
+            "first_name": "Usuario",
+            "last_name": "Siete",
+            "is_staff": false,
+            "is_active": true,
+            "is_superuser": false,
+            "last_login": null,
+            "date_joined": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 8,
+        "fields": {
+            "username": "admi",
+            "email": "admi@gmail.com",
+            "password": "pbkdf2_sha256$150000$",
+            "first_name": "Usuario",
+            "last_name": "Ocho",
+            "is_staff": false,
+            "is_active": true,
+            "is_superuser": false,
+            "last_login": null,
+            "date_joined": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 9,
+        "fields": {
+            "username": "usuario9",
+            "email": "usuario9@gmail.com",
+            "password": "pbkdf2_sha256$150000$",
+            "first_name": "Usuario",
+            "last_name": "Nueve",
+            "is_staff": false,
+            "is_active": true,
+            "is_superuser": false,
+            "last_login": null,
+            "date_joined": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 10,
+        "fields": {
+            "username": "admin0",
+            "email": "admin0@gmail.com",
+            "password": "pbkdf2_sha256$150000$",
+            "first_name": "Usuario",
+            "last_name": "Diez",
+            "is_staff": false,
+            "is_active": true,
+            "is_superuser": false,
+            "last_login": null,
+            "date_joined": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "bonvino.pais",
+        "pk": 1,
+        "fields": {
+            "nombre": "Argentina"
+        }
+    },
+    {
+        "model": "bonvino.pais",
+        "pk": 2,
+        "fields": {
+            "nombre": "Chile"
+        }
+    },
+    {
+        "model": "bonvino.pais",
+        "pk": 3,
+        "fields": {
+            "nombre": "España"
+        }
+    },
+    {
+        "model": "bonvino.regionvitivinicola",
+        "pk": 1,
+        "fields": {
+            "nombre": "Valle de Uco",
+            "descripcion": "Región vitivinícola de Mendoza, famosa por sus vinos Malbec de alta calidad."
+        }
+    },
+    {
+        "model": "bonvino.regionvitivinicola",
+        "pk": 2,
+        "fields": {
+            "nombre": "Valle de San Juan",
+            "descripcion": "Región destacada por sus variedades de Syrah y Bonarda."
+        }
+    },
+    {
+        "model": "bonvino.regionvitivinicola",
+        "pk": 3,
+        "fields": {
+            "nombre": "Maipo",
+            "descripcion": "Una de las principales regiones vinícolas de Chile, conocida por sus Cabernet Sauvignon."
+        }
+    },
+    {
+        "model": "bonvino.regionvitivinicola",
+        "pk": 4,
+        "fields": {
+            "nombre": "Rioja Alta",
+            "descripcion": "Región de España famosa por sus vinos Tempranillo."
+        }
+    },
+    {
+        "model": "bonvino.regionvitivinicola",
+        "pk": 5,
+        "fields": {
+            "nombre": "Penedés",
+            "descripcion": "Conocida por su producción de Cava y vinos blancos."
+        }
+    },
+    {
+        "model": "bonvino.provincia",
+        "pk": 1,
+        "fields": {
+            "nombre": "Mendoza",
+            "region_vitivinicola": 1
+        }
+    },
+    {
+        "model": "bonvino.provincia",
+        "pk": 2,
+        "fields": {
+            "nombre": "San Juan",
+            "region_vitivinicola": 2
+        }
+    },
+    {
+        "model": "bonvino.provincia",
+        "pk": 3,
+        "fields": {
+            "nombre": "Valle Central",
+            "region_vitivinicola": 3
+        }
+    },
+    {
+        "model": "bonvino.provincia",
+        "pk": 4,
+        "fields": {
+            "nombre": "La Rioja",
+            "region_vitivinicola": 4
+        }
+    },
+    {
+        "model": "bonvino.provincia",
+        "pk": 5,
+        "fields": {
+            "nombre": "Cataluña",
+            "region_vitivinicola": 5
+        }
+    },
+    {
+        "model": "bonvino.bodega",
+        "pk": 1,
+        "fields": {
+            "coordenadas": "123,321",
+            "nombre": "Bodega Norton",
+            "direccion": "Ruta 15, Km 23.5, Luján de Cuyo",
+            "descripcion": "Una de las bodegas más antiguas de Argentina.",
+            "provincia": 1
+        }
+    },
+    {
+        "model": "bonvino.bodega",
+        "pk": 2,
+        "fields": {
+            "coordenadas": "456,654",
+            "nombre": "Bodega Salentein",
+            "direccion": "Ruta 89, Km 14, Tunuyán",
+            "descripcion": "Conocida por sus vinos de alta gama.",
+            "provincia": 1
+        }
+    },
+    {
+        "model": "bonvino.bodega",
+        "pk": 3,
+        "fields": {
+            "coordenadas": "789,987",
+            "nombre": "Bodega Concha y Toro",
+            "direccion": "Av. Virginia Subercaseaux 210, Pirque",
+            "descripcion": "La bodega más grande de Chile.",
+            "provincia": 3
+        }
+    },
+    {
+        "model": "bonvino.bodega",
+        "pk": 4,
+        "fields": {
+            "coordenadas": "111,222",
+            "nombre": "Bodegas Marqués de Riscal",
+            "direccion": "C. Torrea, 1, Elciego",
+            "descripcion": "Conocida por sus vinos de Rioja y su edificio diseñado por Frank Gehry.",
+            "provincia": 4
+        }
+    },
+    {
+        "model": "bonvino.bodega",
+        "pk": 5,
+        "fields": {
+            "coordenadas": "333,444",
+            "nombre": "Bodegas Codorníu",
+            "direccion": "Av. Jaume Codorníu, s/n, Sant Sadurní d'Anoia",
+            "descripcion": "Famosa por su producción de Cava.",
+            "provincia": 5
+        }
+    },
+    {
+        "model": "bonvino.vino",
+        "pk": 1,
+        "fields": {
+            "nombre": "Norton Malbec",
+            "cosecha": "2020",
+            "graduacionAlcoholica": "13.5",
+            "descripcion": "Un vino tinto robusto y afrutado.",
+            "bodega": 1
+        }
+    },
+    {
+        "model": "bonvino.vino",
+        "pk": 2,
+        "fields": {
+            "nombre": "Salentein Cabernet Sauvignon",
+            "cosecha": "2019",
+            "graduacionAlcoholica": "14.0",
+            "descripcion": "Un vino con cuerpo y notas a cassis.",
+            "bodega": 2
+        }
+    },
+    {
+        "model": "bonvino.vino",
+        "pk": 3,
+        "fields": {
+            "nombre": "Concha y Toro Tempranillo",
+            "cosecha": "2018",
+            "graduacionAlcoholica": "13.0",
+            "descripcion": "Un vino tinto con matices a frutas rojas.",
+            "bodega": 3
+        }
+    },
+    {
+        "model": "bonvino.vino",
+        "pk": 4,
+        "fields": {
+            "nombre": "Marqués de Riscal Reserva",
+            "cosecha": "2017",
+            "graduacionAlcoholica": "13.5",
+            "descripcion": "Un vino con notas a especias y buena estructura.",
+            "bodega": 4
+        }
+    },
+    {
+        "model": "bonvino.vino",
+        "pk": 5,
+        "fields": {
+            "nombre": "Codorníu Clásico",
+            "cosecha": "2016",
+            "graduacionAlcoholica": "11.5",
+            "descripcion": "Un cava fresco y burbujeante.",
+            "bodega": 5
+        }
+    },
+    {
+        "model": "bonvino.tipo_uva",
+        "pk": 1,
+        "fields": {
+            "descripcion": "Malbec"
+        }
+    },
+    {
+        "model": "bonvino.tipo_uva",
+        "pk": 2,
+        "fields": {
+            "descripcion": "Cabernet Sauvignon"
+        }
+    },
+    {
+        "model": "bonvino.tipo_uva",
+        "pk": 3,
+        "fields": {
+            "descripcion": "Tempranillo"
+        }
+    },
+    {
+        "model": "bonvino.varietal",
+        "pk": 1,
+        "fields": {
+            "descripcion": "Malbec",
+            "porcentajeComposicion": "100.00",
+            "vino": 1,
+            "tipo_uva": 1
+        }
+    },
+    {
+        "model": "bonvino.varietal",
+        "pk": 2,
+        "fields": {
+            "descripcion": "Cabernet Sauvignon",
+            "porcentajeComposicion": "100.00",
+            "vino": 2,
+            "tipo_uva": 2
+        }
+    },
+    {
+        "model": "bonvino.varietal",
+        "pk": 3,
+        "fields": {
+            "descripcion": "Tempranillo",
+            "porcentajeComposicion": "100.00",
+            "vino": 3,
+            "tipo_uva": 3
+        }
+    },
+    {
+        "model": "bonvino.reseña",
+        "pk": 1,
+        "fields": {
+            "comentario": "Un excelente Malbec con notas a frutas rojas y taninos suaves.",
+            "esPremium": true,
+            "fechaReseña": "2023-03-20",
+            "puntaje": 4,
+            "vino": 1,
+            "usuario": 1
+        }
+    },
+    {
+        "model": "bonvino.reseña",
+        "pk": 2,
+        "fields": {
+            "comentario": "Excelente relación calidad-precio.",
+            "esPremium": true,
+            "fechaReseña": "2023-06-18",
+            "puntaje": 4.2,
+            "vino": 1,
+            "usuario": 2
+        }
+    },
+    {
+        "model": "bonvino.reseña",
+        "pk": 3,
+        "fields": {
+            "comentario": "Un vino con carácter y buen cuerpo.",
+            "esPremium": true,
+            "fechaReseña": "2023-02-12",
+            "puntaje": 4.7,
+            "vino": 2,
+            "usuario": 3
+        }
+    },
+    {
+        "model": "bonvino.reseña",
+        "pk": 4,
+        "fields": {
+            "comentario": "Notas herbáceas y un final largo.",
+            "esPremium": true,
+            "fechaReseña": "2023-05-08",
+            "puntaje": 4.0,
+            "vino": 2,
+            "usuario": 4
+        }
+    },
+    {
+        "model": "bonvino.reseña",
+        "pk": 5,
+        "fields": {
+            "comentario": "Un Tempranillo con gran cuerpo y notas a frutos secos.",
+            "esPremium": true,
+            "fechaReseña": "2023-07-12",
+            "puntaje": 4.5,
+            "vino": 3,
+            "usuario": 5
+        }
+    },
+    {
+        "model": "bonvino.reseña",
+        "pk": 6,
+        "fields": {
+            "comentario": "Buena estructura y equilibrio.",
+            "esPremium": true,
+            "fechaReseña": "2023-09-03",
+            "puntaje": 4.3,
+            "vino": 3,
+            "usuario": 6
+        }
+    },
+    {
+        "model": "bonvino.reseña",
+        "pk": 7,
+        "fields": {
+            "comentario": "Un vino con mucho carácter y profundidad.",
+            "esPremium": true,
+            "fechaReseña": "2023-10-03",
+            "puntaje": 4.8,
+            "vino": 4,
+            "usuario": 7
+        }
+    },
+    {
+        "model": "bonvino.reseña",
+        "pk": 8,
+        "fields": {
+            "comentario": "Un excelente vino con notas a especias y frutas maduras.",
+            "esPremium": true,
+            "fechaReseña": "2023-11-15",
+            "puntaje": 4.6,
+            "vino": 4,
+            "usuario": 8
+        }
+    },
+    {
+        "model": "bonvino.reseña",
+        "pk": 9,
+        "fields": {
+            "comentario": "Un cava fresco y bien balanceado.",
+            "esPremium": true,
+            "fechaReseña": "2023-12-05",
+            "puntaje": 4.4,
+            "vino": 5,
+            "usuario": 9
+        }
+    },
+    {
+        "model": "bonvino.reseña",
+        "pk": 10,
+        "fields": {
+            "comentario": "Notas cítricas y un final limpio.",
+            "esPremium": true,
+            "fechaReseña": "2024-01-10",
+            "puntaje": 4.1,
+            "vino": 5,
+            "usuario": 10
+        }
+    }
+]
