@@ -10,11 +10,19 @@ class RegionVitivinicolaAdmin(admin.ModelAdmin):
 
 @admin.register(Provincia)
 class ProvinciaAdmin(admin.ModelAdmin):
-    list_display = ('id', 'nombre')
+    list_display = ('id', 'nombre', 'ver_regiones')
+    def ver_regiones(self, obj):
+        # Esto devuelve una cadena con los nombres de las regiones, separadas por comas
+        return ", ".join([region.nombre for region in obj.region_vitivinicola.all()])
+    ver_regiones.short_description = 'Regiones Vitivinícolas'
 
 @admin.register(Pais)
 class PaisAdmin(admin.ModelAdmin):
-    list_display = ('id', 'nombre')
+    list_display = ('id', 'nombre', 'ver_provincias')
+    def ver_provincias(self, obj):
+        # Esto devuelve una cadena con los nombres de las provincias, separadas por comas
+        return ", ".join([provincia.nombre for provincia in obj.provincias.all()])
+    ver_provincias.short_description = 'Provincias'
 
 @admin.register(Maridaje)
 class MaridajeAdmin(admin.ModelAdmin):

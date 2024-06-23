@@ -1,544 +1,1584 @@
 [
-    {
-        "model": "auth.user",
-        "pk": 1,
-        "fields": {
-            "username": "admin",
-            "email": "admin@gmail.com",
-            "password": "pbkdf2_sha256$150000$",
-            "first_name": "Usuario",
-            "last_name": "Uno",
-            "is_staff": false,
-            "is_active": true,
-            "is_superuser": false,
-            "last_login": null,
-            "date_joined": "2023-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "auth.user",
-        "pk": 2,
-        "fields": {
-            "username": "admin",
-            "email": "admin@gmail.com",
-            "password": "pbkdf2_sha256$150000$",
-            "first_name": "Usuario",
-            "last_name": "Dos",
-            "is_staff": false,
-            "is_active": true,
-            "is_superuser": false,
-            "last_login": null,
-            "date_joined": "2023-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "auth.user",
-        "pk": 3,
-        "fields": {
-            "username": "admin",
-            "email": "admin@gmail.com",
-            "password": "pbkdf2_sha256$150000$",
-            "first_name": "Usuario",
-            "last_name": "Tres",
-            "is_staff": false,
-            "is_active": true,
-            "is_superuser": false,
-            "last_login": null,
-            "date_joined": "2023-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "auth.user",
-        "pk": 4,
-        "fields": {
-            "username": "admin",
-            "email": "admin@gmail.com",
-            "password": "pbkdf2_sha256$150000$",
-            "first_name": "Usuario",
-            "last_name": "Cuatro",
-            "is_staff": false,
-            "is_active": true,
-            "is_superuser": false,
-            "last_login": null,
-            "date_joined": "2023-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "auth.user",
-        "pk": 5,
-        "fields": {
-            "username": "admin",
-            "email": "admin@gmail.com",
-            "password": "pbkdf2_sha256$150000$",
-            "first_name": "Usuario",
-            "last_name": "Cinco",
-            "is_staff": false,
-            "is_active": true,
-            "is_superuser": false,
-            "last_login": null,
-            "date_joined": "2023-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "auth.user",
-        "pk": 6,
-        "fields": {
-            "username": "admin",
-            "email": "admin@gmail.com",
-            "password": "pbkdf2_sha256$150000$",
-            "first_name": "Usuario",
-            "last_name": "Seis",
-            "is_staff": false,
-            "is_active": true,
-            "is_superuser": false,
-            "last_login": null,
-            "date_joined": "2023-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "auth.user",
-        "pk": 7,
-        "fields": {
-            "username": "admin",
-            "email": "admin@gmail.com",
-            "password": "pbkdf2_sha256$150000$",
-            "first_name": "Usuario",
-            "last_name": "Siete",
-            "is_staff": false,
-            "is_active": true,
-            "is_superuser": false,
-            "last_login": null,
-            "date_joined": "2023-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "auth.user",
-        "pk": 8,
-        "fields": {
-            "username": "admi",
-            "email": "admi@gmail.com",
-            "password": "pbkdf2_sha256$150000$",
-            "first_name": "Usuario",
-            "last_name": "Ocho",
-            "is_staff": false,
-            "is_active": true,
-            "is_superuser": false,
-            "last_login": null,
-            "date_joined": "2023-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "auth.user",
-        "pk": 9,
-        "fields": {
-            "username": "usuario9",
-            "email": "usuario9@gmail.com",
-            "password": "pbkdf2_sha256$150000$",
-            "first_name": "Usuario",
-            "last_name": "Nueve",
-            "is_staff": false,
-            "is_active": true,
-            "is_superuser": false,
-            "last_login": null,
-            "date_joined": "2023-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "auth.user",
-        "pk": 10,
-        "fields": {
-            "username": "admin0",
-            "email": "admin0@gmail.com",
-            "password": "pbkdf2_sha256$150000$",
-            "first_name": "Usuario",
-            "last_name": "Diez",
-            "is_staff": false,
-            "is_active": true,
-            "is_superuser": false,
-            "last_login": null,
-            "date_joined": "2023-01-01T00:00:00Z"
-        }
-    },
-    {
-        "model": "bonvino.pais",
-        "pk": 1,
-        "fields": {
-            "nombre": "Argentina"
-        }
-    },
-    {
-        "model": "bonvino.pais",
-        "pk": 2,
-        "fields": {
-            "nombre": "Chile"
-        }
-    },
-    {
-        "model": "bonvino.pais",
-        "pk": 3,
-        "fields": {
-            "nombre": "España"
-        }
-    },
-    {
-        "model": "bonvino.regionvitivinicola",
-        "pk": 1,
-        "fields": {
-            "nombre": "Valle de Uco",
-            "descripcion": "Región vitivinícola de Mendoza, famosa por sus vinos Malbec de alta calidad."
-        }
-    },
-    {
-        "model": "bonvino.regionvitivinicola",
-        "pk": 2,
-        "fields": {
-            "nombre": "Valle de San Juan",
-            "descripcion": "Región destacada por sus variedades de Syrah y Bonarda."
-        }
-    },
-    {
-        "model": "bonvino.regionvitivinicola",
-        "pk": 3,
-        "fields": {
-            "nombre": "Maipo",
-            "descripcion": "Una de las principales regiones vinícolas de Chile, conocida por sus Cabernet Sauvignon."
-        }
-    },
-    {
-        "model": "bonvino.regionvitivinicola",
-        "pk": 4,
-        "fields": {
-            "nombre": "Rioja Alta",
-            "descripcion": "Región de España famosa por sus vinos Tempranillo."
-        }
-    },
-    {
-        "model": "bonvino.regionvitivinicola",
-        "pk": 5,
-        "fields": {
-            "nombre": "Penedés",
-            "descripcion": "Conocida por su producción de Cava y vinos blancos."
-        }
-    },
-    {
-        "model": "bonvino.provincia",
-        "pk": 1,
-        "fields": {
-            "nombre": "Mendoza",
-            "region_vitivinicola": 1
-        }
-    },
-    {
-        "model": "bonvino.provincia",
-        "pk": 2,
-        "fields": {
-            "nombre": "San Juan",
-            "region_vitivinicola": 2
-        }
-    },
-    {
-        "model": "bonvino.provincia",
-        "pk": 3,
-        "fields": {
-            "nombre": "Valle Central",
-            "region_vitivinicola": 3
-        }
-    },
-    {
-        "model": "bonvino.provincia",
-        "pk": 4,
-        "fields": {
-            "nombre": "La Rioja",
-            "region_vitivinicola": 4
-        }
-    },
-    {
-        "model": "bonvino.provincia",
-        "pk": 5,
-        "fields": {
-            "nombre": "Cataluña",
-            "region_vitivinicola": 5
-        }
-    },
-    {
-        "model": "bonvino.bodega",
-        "pk": 1,
-        "fields": {
-            "coordenadas": "123,321",
-            "nombre": "Bodega Norton",
-            "direccion": "Ruta 15, Km 23.5, Luján de Cuyo",
-            "descripcion": "Una de las bodegas más antiguas de Argentina.",
-            "provincia": 1
-        }
-    },
-    {
-        "model": "bonvino.bodega",
-        "pk": 2,
-        "fields": {
-            "coordenadas": "456,654",
-            "nombre": "Bodega Salentein",
-            "direccion": "Ruta 89, Km 14, Tunuyán",
-            "descripcion": "Conocida por sus vinos de alta gama.",
-            "provincia": 1
-        }
-    },
-    {
-        "model": "bonvino.bodega",
-        "pk": 3,
-        "fields": {
-            "coordenadas": "789,987",
-            "nombre": "Bodega Concha y Toro",
-            "direccion": "Av. Virginia Subercaseaux 210, Pirque",
-            "descripcion": "La bodega más grande de Chile.",
-            "provincia": 3
-        }
-    },
-    {
-        "model": "bonvino.bodega",
-        "pk": 4,
-        "fields": {
-            "coordenadas": "111,222",
-            "nombre": "Bodegas Marqués de Riscal",
-            "direccion": "C. Torrea, 1, Elciego",
-            "descripcion": "Conocida por sus vinos de Rioja y su edificio diseñado por Frank Gehry.",
-            "provincia": 4
-        }
-    },
-    {
-        "model": "bonvino.bodega",
-        "pk": 5,
-        "fields": {
-            "coordenadas": "333,444",
-            "nombre": "Bodegas Codorníu",
-            "direccion": "Av. Jaume Codorníu, s/n, Sant Sadurní d'Anoia",
-            "descripcion": "Famosa por su producción de Cava.",
-            "provincia": 5
-        }
-    },
-    {
-        "model": "bonvino.vino",
-        "pk": 1,
-        "fields": {
-            "nombre": "Norton Malbec",
-            "cosecha": "2020",
-            "graduacionAlcoholica": "13.5",
-            "descripcion": "Un vino tinto robusto y afrutado.",
-            "bodega": 1
-        }
-    },
-    {
-        "model": "bonvino.vino",
-        "pk": 2,
-        "fields": {
-            "nombre": "Salentein Cabernet Sauvignon",
-            "cosecha": "2019",
-            "graduacionAlcoholica": "14.0",
-            "descripcion": "Un vino con cuerpo y notas a cassis.",
-            "bodega": 2
-        }
-    },
-    {
-        "model": "bonvino.vino",
-        "pk": 3,
-        "fields": {
-            "nombre": "Concha y Toro Tempranillo",
-            "cosecha": "2018",
-            "graduacionAlcoholica": "13.0",
-            "descripcion": "Un vino tinto con matices a frutas rojas.",
-            "bodega": 3
-        }
-    },
-    {
-        "model": "bonvino.vino",
-        "pk": 4,
-        "fields": {
-            "nombre": "Marqués de Riscal Reserva",
-            "cosecha": "2017",
-            "graduacionAlcoholica": "13.5",
-            "descripcion": "Un vino con notas a especias y buena estructura.",
-            "bodega": 4
-        }
-    },
-    {
-        "model": "bonvino.vino",
-        "pk": 5,
-        "fields": {
-            "nombre": "Codorníu Clásico",
-            "cosecha": "2016",
-            "graduacionAlcoholica": "11.5",
-            "descripcion": "Un cava fresco y burbujeante.",
-            "bodega": 5
-        }
-    },
-    {
-        "model": "bonvino.tipo_uva",
-        "pk": 1,
-        "fields": {
-            "descripcion": "Malbec"
-        }
-    },
-    {
-        "model": "bonvino.tipo_uva",
-        "pk": 2,
-        "fields": {
-            "descripcion": "Cabernet Sauvignon"
-        }
-    },
-    {
-        "model": "bonvino.tipo_uva",
-        "pk": 3,
-        "fields": {
-            "descripcion": "Tempranillo"
-        }
-    },
-    {
-        "model": "bonvino.varietal",
-        "pk": 1,
-        "fields": {
-            "descripcion": "Malbec",
-            "porcentajeComposicion": "100.00",
-            "vino": 1,
-            "tipo_uva": 1
-        }
-    },
-    {
-        "model": "bonvino.varietal",
-        "pk": 2,
-        "fields": {
-            "descripcion": "Cabernet Sauvignon",
-            "porcentajeComposicion": "100.00",
-            "vino": 2,
-            "tipo_uva": 2
-        }
-    },
-    {
-        "model": "bonvino.varietal",
-        "pk": 3,
-        "fields": {
-            "descripcion": "Tempranillo",
-            "porcentajeComposicion": "100.00",
-            "vino": 3,
-            "tipo_uva": 3
-        }
-    },
-    {
-        "model": "bonvino.reseña",
-        "pk": 1,
-        "fields": {
-            "comentario": "Un excelente Malbec con notas a frutas rojas y taninos suaves.",
-            "esPremium": true,
-            "fechaReseña": "2023-03-20",
-            "puntaje": 4,
-            "vino": 1,
-            "usuario": 1
-        }
-    },
-    {
-        "model": "bonvino.reseña",
-        "pk": 2,
-        "fields": {
-            "comentario": "Excelente relación calidad-precio.",
-            "esPremium": true,
-            "fechaReseña": "2023-06-18",
-            "puntaje": 4.2,
-            "vino": 1,
-            "usuario": 2
-        }
-    },
-    {
-        "model": "bonvino.reseña",
-        "pk": 3,
-        "fields": {
-            "comentario": "Un vino con carácter y buen cuerpo.",
-            "esPremium": true,
-            "fechaReseña": "2023-02-12",
-            "puntaje": 4.7,
-            "vino": 2,
-            "usuario": 3
-        }
-    },
-    {
-        "model": "bonvino.reseña",
-        "pk": 4,
-        "fields": {
-            "comentario": "Notas herbáceas y un final largo.",
-            "esPremium": true,
-            "fechaReseña": "2023-05-08",
-            "puntaje": 4.0,
-            "vino": 2,
-            "usuario": 4
-        }
-    },
-    {
-        "model": "bonvino.reseña",
-        "pk": 5,
-        "fields": {
-            "comentario": "Un Tempranillo con gran cuerpo y notas a frutos secos.",
-            "esPremium": true,
-            "fechaReseña": "2023-07-12",
-            "puntaje": 4.5,
-            "vino": 3,
-            "usuario": 5
-        }
-    },
-    {
-        "model": "bonvino.reseña",
-        "pk": 6,
-        "fields": {
-            "comentario": "Buena estructura y equilibrio.",
-            "esPremium": true,
-            "fechaReseña": "2023-09-03",
-            "puntaje": 4.3,
-            "vino": 3,
-            "usuario": 6
-        }
-    },
-    {
-        "model": "bonvino.reseña",
-        "pk": 7,
-        "fields": {
-            "comentario": "Un vino con mucho carácter y profundidad.",
-            "esPremium": true,
-            "fechaReseña": "2023-10-03",
-            "puntaje": 4.8,
-            "vino": 4,
-            "usuario": 7
-        }
-    },
-    {
-        "model": "bonvino.reseña",
-        "pk": 8,
-        "fields": {
-            "comentario": "Un excelente vino con notas a especias y frutas maduras.",
-            "esPremium": true,
-            "fechaReseña": "2023-11-15",
-            "puntaje": 4.6,
-            "vino": 4,
-            "usuario": 8
-        }
-    },
-    {
-        "model": "bonvino.reseña",
-        "pk": 9,
-        "fields": {
-            "comentario": "Un cava fresco y bien balanceado.",
-            "esPremium": true,
-            "fechaReseña": "2023-12-05",
-            "puntaje": 4.4,
-            "vino": 5,
-            "usuario": 9
-        }
-    },
-    {
-        "model": "bonvino.reseña",
-        "pk": 10,
-        "fields": {
-            "comentario": "Notas cítricas y un final limpio.",
-            "esPremium": true,
-            "fechaReseña": "2024-01-10",
-            "puntaje": 4.1,
-            "vino": 5,
-            "usuario": 10
-        }
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-06-23T00:44:22.912Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Napa Valley",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
     }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-06-23T00:49:23.054Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Napa Valley",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-06-23T00:52:55.089Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "La Rioja Alta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-06-23T00:53:26.859Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Rioja Baja",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-06-23T00:53:44.649Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Ribera del Duero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-06-23T00:54:00.110Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "Valladolid Ribera",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-06-23T00:54:16.149Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "Priorat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-06-23T00:54:27.939Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "Montsant",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-06-23T00:54:41.609Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "Rías Baixas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-06-23T00:55:09.008Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "Valle del Salnés",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-06-23T00:55:34.032Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "La Rioja",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-06-23T00:59:57.121Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Ribera del Duero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-06-23T01:00:13.590Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Priorat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-06-23T01:00:26.990Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Rías Baixas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-06-23T01:00:46.582Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Espana",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-06-23T01:01:00.570Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Espana",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-06-23T01:01:13.140Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "España",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-06-23T01:03:44.945Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "Valle de Uco",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-06-23T01:04:00.525Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "11",
+        "object_repr": "Luján de Cuyo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-06-23T01:04:14.316Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "12",
+        "object_repr": "Cafayate",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-06-23T01:04:28.336Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "13",
+        "object_repr": "Valles Calchaquíes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-06-23T01:04:41.436Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "14",
+        "object_repr": "Valle del Tulum",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-06-23T01:04:55.075Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "15",
+        "object_repr": "Valle de Pedernal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-06-23T01:05:15.505Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "Alto Valle del Río Negro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-06-23T01:05:48.145Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "17",
+        "object_repr": "Valle de San Patricio del Chañar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-06-23T01:06:13.558Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Mendoza",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-06-23T01:06:23.168Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Salta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-06-23T01:06:40.177Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "San Juan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-06-23T01:07:01.299Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "Rio Negro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-06-23T01:07:15.267Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "Argentina",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add certificacion",
+        "content_type": 7,
+        "codename": "add_certificacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change certificacion",
+        "content_type": 7,
+        "codename": "change_certificacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete certificacion",
+        "content_type": 7,
+        "codename": "delete_certificacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view certificacion",
+        "content_type": 7,
+        "codename": "view_certificacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 8,
+        "codename": "add_enofilo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 8,
+        "codename": "change_enofilo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 8,
+        "codename": "delete_enofilo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 8,
+        "codename": "view_enofilo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add maridaje",
+        "content_type": 9,
+        "codename": "add_maridaje"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change maridaje",
+        "content_type": 9,
+        "codename": "change_maridaje"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete maridaje",
+        "content_type": 9,
+        "codename": "delete_maridaje"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view maridaje",
+        "content_type": 9,
+        "codename": "view_maridaje"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add novedad evento",
+        "content_type": 10,
+        "codename": "add_novedadevento"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change novedad evento",
+        "content_type": 10,
+        "codename": "change_novedadevento"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete novedad evento",
+        "content_type": 10,
+        "codename": "delete_novedadevento"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view novedad evento",
+        "content_type": 10,
+        "codename": "view_novedadevento"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add provincia",
+        "content_type": 11,
+        "codename": "add_provincia"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change provincia",
+        "content_type": 11,
+        "codename": "change_provincia"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete provincia",
+        "content_type": 11,
+        "codename": "delete_provincia"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view provincia",
+        "content_type": 11,
+        "codename": "view_provincia"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add region vitivinicola",
+        "content_type": 12,
+        "codename": "add_regionvitivinicola"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change region vitivinicola",
+        "content_type": 12,
+        "codename": "change_regionvitivinicola"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete region vitivinicola",
+        "content_type": 12,
+        "codename": "delete_regionvitivinicola"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view region vitivinicola",
+        "content_type": 12,
+        "codename": "view_regionvitivinicola"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add tipo uva",
+        "content_type": 13,
+        "codename": "add_tipouva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change tipo uva",
+        "content_type": 13,
+        "codename": "change_tipouva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete tipo uva",
+        "content_type": 13,
+        "codename": "delete_tipouva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view tipo uva",
+        "content_type": 13,
+        "codename": "view_tipouva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add cobro premium",
+        "content_type": 14,
+        "codename": "add_cobropremium"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change cobro premium",
+        "content_type": 14,
+        "codename": "change_cobropremium"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete cobro premium",
+        "content_type": 14,
+        "codename": "delete_cobropremium"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view cobro premium",
+        "content_type": 14,
+        "codename": "view_cobropremium"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add pais",
+        "content_type": 15,
+        "codename": "add_pais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change pais",
+        "content_type": 15,
+        "codename": "change_pais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete pais",
+        "content_type": 15,
+        "codename": "delete_pais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view pais",
+        "content_type": 15,
+        "codename": "view_pais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add bodega",
+        "content_type": 16,
+        "codename": "add_bodega"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change bodega",
+        "content_type": 16,
+        "codename": "change_bodega"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete bodega",
+        "content_type": 16,
+        "codename": "delete_bodega"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view bodega",
+        "content_type": 16,
+        "codename": "view_bodega"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add siguiendo",
+        "content_type": 17,
+        "codename": "add_siguiendo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change siguiendo",
+        "content_type": 17,
+        "codename": "change_siguiendo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete siguiendo",
+        "content_type": 17,
+        "codename": "delete_siguiendo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view siguiendo",
+        "content_type": 17,
+        "codename": "view_siguiendo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 18,
+        "codename": "add_sommelier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 18,
+        "codename": "change_sommelier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 18,
+        "codename": "delete_sommelier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 18,
+        "codename": "view_sommelier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add vino",
+        "content_type": 19,
+        "codename": "add_vino"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change vino",
+        "content_type": 19,
+        "codename": "change_vino"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete vino",
+        "content_type": 19,
+        "codename": "delete_vino"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view vino",
+        "content_type": 19,
+        "codename": "view_vino"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add varietal",
+        "content_type": 20,
+        "codename": "add_varietal"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change varietal",
+        "content_type": 20,
+        "codename": "change_varietal"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete varietal",
+        "content_type": 20,
+        "codename": "delete_varietal"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view varietal",
+        "content_type": 20,
+        "codename": "view_varietal"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add reseña",
+        "content_type": 21,
+        "codename": "add_reseña"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change reseña",
+        "content_type": 21,
+        "codename": "change_reseña"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete reseña",
+        "content_type": 21,
+        "codename": "delete_reseña"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view reseña",
+        "content_type": 21,
+        "codename": "view_reseña"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$IWYDMQe7aidJRJSx8KCSFK$zsR+5Tn27ZgzURb+cErjXcVrrtjsb3O3sS6gO8tSfkY=",
+        "last_login": "2024-06-23T00:35:11.174Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-06-23T00:35:06.064Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "certificacion"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "enofilo"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "maridaje"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "novedadevento"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "provincia"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "regionvitivinicola"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "tipouva"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "cobropremium"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "pais"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "bodega"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "siguiendo"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "sommelier"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "vino"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "varietal"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "bonvino",
+        "model": "reseña"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hsr0eunb5ufrqjxuuj5pn15axh8an5co",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAGKVCX7nsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnERIE6_W0R6pLoDvmO9NUmtrssc5a7Ig3Y5NU7P6-H-HRTs5Vtro8CjIiaLnlNW2Q8MrDN65UfjzhacBlQAeYjIcXQAlJAUI5nIVrw_6B44bw:1sLBCJ:xfCZosxq3b7rru-tFB3qMk6_os_kUBBnFZ8tCrS7DiI",
+        "expire_date": "2024-07-07T00:35:11.177Z"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 2,
+    "fields": {
+        "descripcion": "La Rioja Alta es una subregión famosa por sus vinos tintos robustos y elegantes, elaborados principalmente con tempranillo. Esta área se caracteriza por su altitud y suelos arcillosos, contribuyendo a la producción de vinos de alta calidad.",
+        "nombre": "La Rioja Alta"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 3,
+    "fields": {
+        "descripcion": "Rioja Baja es una subregión con un clima más cálido y suelos arenosos. Sus vinos, predominantemente de tempranillo y garnacha, son potentes y con mayor contenido alcohólico, reflejando la calidez de la región.",
+        "nombre": "Rioja Baja"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 4,
+    "fields": {
+        "descripcion": "Ribera del Duero, en la provincia de Burgos, es una prestigiosa región vitivinícola de España. Conocida por sus vinos tintos intensos de tempranillo, la región se beneficia de un clima continental y suelos ricos en minerales.",
+        "nombre": "Ribera del Duero"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 5,
+    "fields": {
+        "descripcion": "Valladolid Ribera, parte de Ribera del Duero, es conocida por sus vinos excepcionales de tempranillo. Estos vinos presentan un perfil lleno de frutas negras, taninos suaves y una notable estructura, reflejando la calidad de la región.",
+        "nombre": "Valladolid Ribera"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 6,
+    "fields": {
+        "descripcion": "Priorat es una prestigiosa región vitivinícola en Tarragona, Cataluña. Famosa por sus vinos tintos potentes y concentrados, destaca por sus suelos de pizarra y su clima mediterráneo, lo que contribuye a la calidad de sus vinos.",
+        "nombre": "Priorat"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 7,
+    "fields": {
+        "descripcion": "Montsant, en Tarragona, rodea Priorat y produce vinos de gran calidad, especialmente tintos de garnacha y cariñena. Los suelos calcáreos y el clima mediterráneo aportan un carácter distintivo a los vinos de esta región emergente.",
+        "nombre": "Montsant"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 8,
+    "fields": {
+        "descripcion": "Rías Baixas, en Pontevedra, Galicia, es la principal región de España para el albariño, un vino blanco fresco y aromático. Los viñedos se benefician de un clima atlántico y suelos graníticos, produciendo vinos de alta acidez y carácter.",
+        "nombre": "Rías Baixas"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 9,
+    "fields": {
+        "descripcion": "El Valle del Salnés, en Rías Baixas, es conocido por sus vinos de albariño. Con un clima atlántico y suelos graníticos, esta subregión produce vinos blancos frescos y aromáticos, ideales para maridar con mariscos.",
+        "nombre": "Valle del Salnés"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 10,
+    "fields": {
+        "descripcion": "El Valle de Uco, en Mendoza, es famoso por sus vinos de malbec de alta calidad. Con una altitud elevada y suelos aluviales, produce vinos intensos, frescos y complejos, reflejando lo mejor del terruño mendocino.",
+        "nombre": "Valle de Uco"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 11,
+    "fields": {
+        "descripcion": "Luján de Cuyo, en Mendoza, es conocida como la cuna del malbec argentino. Sus viñedos a gran altitud producen vinos tintos con cuerpo, intensidad y complejidad aromática, siendo una de las áreas más prestigiosas de Argentina.",
+        "nombre": "Luján de Cuyo"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 12,
+    "fields": {
+        "descripcion": "Cafayate, en Salta, es famosa por sus vinos blancos de torrontés y tintos de malbec y cabernet sauvignon. A gran altitud, produce vinos aromáticos y frescos, con un carácter distintivo y una gran pureza de sabores",
+        "nombre": "Cafayate"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 13,
+    "fields": {
+        "descripcion": "Los Valles Calchaquíes, en Salta, son una de las regiones vitivinícolas más altas del mundo. Con un clima seco y soleado, producen vinos de torrontés aromáticos y frescos, y tintos intensos como malbec y cabernet sauvignon.",
+        "nombre": "Valles Calchaquíes"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 14,
+    "fields": {
+        "descripcion": "El Valle del Tulum, en San Juan, es conocido por sus vinos tintos robustos de syrah, bonarda y malbec. Con un clima cálido y seco y suelos arenosos, produce vinos con gran concentración de fruta y estructura.",
+        "nombre": "Valle del Tulum"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 15,
+    "fields": {
+        "descripcion": "El Valle de Pedernal, en San Juan, produce vinos de alta calidad, especialmente syrah y malbec. Con su altitud elevada y suelos pedregosos, los vinos destacan por su frescura, intensidad y carácter distintivo.",
+        "nombre": "Valle de Pedernal"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 16,
+    "fields": {
+        "descripcion": "El Alto Valle del Río Negro, en Patagonia, Argentina, es conocido por sus vinos frescos y elegantes de pinot noir y merlot. Con un clima frío y suelos aluviales, produce vinos con acidez equilibrada y aromas complejos.",
+        "nombre": "Alto Valle del Río Negro"
+    }
+},
+{
+    "model": "bonvino.regionvitivinicola",
+    "pk": 17,
+    "fields": {
+        "descripcion": "El Valle de San Patricio del Chañar, en Patagonia, Argentina, produce vinos frescos y elegantes de pinot noir, malbec y chardonnay. Con un clima fresco y seco, los vinos presentan acidez equilibrada y gran expresión aromática.",
+        "nombre": "Valle de San Patricio del Chañar"
+    }
+},
+{
+    "model": "bonvino.provincia",
+    "pk": 1,
+    "fields": {
+        "nombre": "La Rioja",
+        "region_vitivinicola": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "bonvino.provincia",
+    "pk": 2,
+    "fields": {
+        "nombre": "Ribera del Duero",
+        "region_vitivinicola": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "bonvino.provincia",
+    "pk": 3,
+    "fields": {
+        "nombre": "Priorat",
+        "region_vitivinicola": [
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "bonvino.provincia",
+    "pk": 4,
+    "fields": {
+        "nombre": "Rías Baixas",
+        "region_vitivinicola": [
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "bonvino.provincia",
+    "pk": 5,
+    "fields": {
+        "nombre": "Mendoza",
+        "region_vitivinicola": [
+            10,
+            11
+        ]
+    }
+},
+{
+    "model": "bonvino.provincia",
+    "pk": 6,
+    "fields": {
+        "nombre": "Salta",
+        "region_vitivinicola": [
+            12,
+            13
+        ]
+    }
+},
+{
+    "model": "bonvino.provincia",
+    "pk": 7,
+    "fields": {
+        "nombre": "San Juan",
+        "region_vitivinicola": [
+            14,
+            15
+        ]
+    }
+},
+{
+    "model": "bonvino.provincia",
+    "pk": 8,
+    "fields": {
+        "nombre": "Rio Negro",
+        "region_vitivinicola": [
+            16,
+            17
+        ]
+    }
+},
+{
+    "model": "bonvino.pais",
+    "pk": 2,
+    "fields": {
+        "nombre": "España",
+        "provincias": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "bonvino.pais",
+    "pk": 3,
+    "fields": {
+        "nombre": "Argentina",
+        "provincias": [
+            8,
+            5,
+            6,
+            7
+        ]
+    }
+}
 ]

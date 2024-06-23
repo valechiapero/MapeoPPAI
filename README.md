@@ -81,6 +81,13 @@ Creamos la carpeta dentro del directorio de la aplicación **`fixtures`** y dent
 ```
 docker compose run --rm manage loaddata initial_data
 ```
+## Generar dump de la base de datos
+Para generar dump de la base de datos en un archivo initial_data con los datos actuales, ejecutamos
+```
+docker-compose run --rm manage dumpdata --indent 4 > src/bonvino/fixtures/initial_data.json
+```
+Este comando sobreescribira el archivo si este existe en la ruta especificada
+
 ## Comandos útiles.
 Para generar las modificaciones de la base de datos ejecutamos:
 ```sh
