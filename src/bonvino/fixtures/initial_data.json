@@ -390,6 +390,19 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-06-23T01:30:51.835Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Los Viñedos de Cafayate",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -1579,6 +1592,18 @@
             6,
             7
         ]
+    }
+},
+{
+    "model": "bonvino.bodega",
+    "pk": 1,
+    "fields": {
+        "coordenadasUbicacion": "[-26.0752,  -65.9772]",
+        "descripcion": "Bodega Los Viñedos de Cafayate es una bodega boutique ubicada en el corazón de la región vitivinícola de Cafayate, en Salta, Argentina. Se especializa en la producción de vinos de alta calidad, destacándose por sus Malbecs y Torrontés, emblemáticos de la zona.",
+        "historia": "Fundada en 1998 por la familia Pérez, la bodega comenzó como un pequeño proyecto familiar con el objetivo de explorar las posibilidades del terroir único de Cafayate. A lo largo de los años, se ha consolidado como un referente en la región, combinando técnicas tradicionales con innovación enológica para crear vinos que reflejen la pasión y el cuidado por el arte de la viticultura.",
+        "nombre": "Los Viñedos de Cafayate",
+        "periodoActualizacion": "2024-06-23",
+        "region_vitivinicola": 12
     }
 }
 ]
